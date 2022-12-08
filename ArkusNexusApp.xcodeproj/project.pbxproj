@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1874670E2941CC4100CA519F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874670D2941CC4100CA519F /* AppDelegate.swift */; };
+		187467102941CC4100CA519F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874670F2941CC4100CA519F /* SceneDelegate.swift */; };
+		187467122941CC4100CA519F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187467112941CC4100CA519F /* HomeViewController.swift */; };
+		187467152941CC4100CA519F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187467132941CC4100CA519F /* Main.storyboard */; };
+		187467172941CC4300CA519F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187467162941CC4300CA519F /* Assets.xcassets */; };
+		1874671A2941CC4300CA519F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187467182941CC4300CA519F /* LaunchScreen.storyboard */; };
+		187467272941CCC200CA519F /* HomeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187467262941CCC200CA519F /* HomeProvider.swift */; };
+		187467292941CCF200CA519F /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187467282941CCF200CA519F /* HomePresenter.swift */; };
+		1874672D2941CD4B00CA519F /* PlaceViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874672B2941CD4B00CA519F /* PlaceViewCell.swift */; };
+		1874672E2941CD4B00CA519F /* PlaceViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874672C2941CD4B00CA519F /* PlaceViewCell.xib */; };
+		187467322941CD8300CA519F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187467312941CD8300CA519F /* NetworkError.swift */; };
+		187467342941CDAF00CA519F /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187467332941CDAF00CA519F /* RequestModel.swift */; };
+		187467362941CDD100CA519F /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187467352941CDD100CA519F /* ServiceLayer.swift */; };
+		187467392941CDFA00CA519F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187467382941CDFA00CA519F /* Constants.swift */; };
+		1874673C2941CE4400CA519F /* PlaceDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874673B2941CE4400CA519F /* PlaceDataModel.swift */; };
+		187467432941CEE000CA519F /* DatailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187467412941CEE000CA519F /* DatailView.swift */; };
+		187467442941CEE000CA519F /* DatailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187467422941CEE000CA519F /* DatailView.xib */; };
+		187467472941CF1200CA519F /* DetailProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187467462941CF1200CA519F /* DetailProvider.swift */; };
+		187467492941CF2500CA519F /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187467482941CF2500CA519F /* DetailPresenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1874670A2941CC4100CA519F /* ArkusNexusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArkusNexusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1874670D2941CC4100CA519F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1874670F2941CC4100CA519F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		187467112941CC4100CA519F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		187467142941CC4100CA519F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187467162941CC4300CA519F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187467192941CC4300CA519F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1874671B2941CC4300CA519F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187467262941CCC200CA519F /* HomeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProvider.swift; sourceTree = "<group>"; };
+		187467282941CCF200CA519F /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		1874672B2941CD4B00CA519F /* PlaceViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewCell.swift; sourceTree = "<group>"; };
+		1874672C2941CD4B00CA519F /* PlaceViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceViewCell.xib; sourceTree = "<group>"; };
+		187467312941CD8300CA519F /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		187467332941CDAF00CA519F /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		187467352941CDD100CA519F /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
+		187467382941CDFA00CA519F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1874673B2941CE4400CA519F /* PlaceDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDataModel.swift; sourceTree = "<group>"; };
+		187467412941CEE000CA519F /* DatailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatailView.swift; sourceTree = "<group>"; };
+		187467422941CEE000CA519F /* DatailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatailView.xib; sourceTree = "<group>"; };
+		187467462941CF1200CA519F /* DetailProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProvider.swift; sourceTree = "<group>"; };
+		187467482941CF2500CA519F /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187467072941CC4100CA519F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187467012941CC4100CA519F = {
+			isa = PBXGroup;
+			children = (
+				1874670C2941CC4100CA519F /* ArkusNexusApp */,
+				1874670B2941CC4100CA519F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1874670B2941CC4100CA519F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1874670A2941CC4100CA519F /* ArkusNexusApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1874670C2941CC4100CA519F /* ArkusNexusApp */ = {
+			isa = PBXGroup;
+			children = (
+				187467372941CDE400CA519F /* Utils */,
+				1874672F2941CD5D00CA519F /* ServiceLayer */,
+				1874673A2941CE2600CA519F /* DataModel */,
+				1874673D2941CE9600CA519F /* Detail */,
+				187467212941CC7C00CA519F /* Home */,
+				1874670D2941CC4100CA519F /* AppDelegate.swift */,
+				1874670F2941CC4100CA519F /* SceneDelegate.swift */,
+				187467162941CC4300CA519F /* Assets.xcassets */,
+				187467182941CC4300CA519F /* LaunchScreen.storyboard */,
+				1874671B2941CC4300CA519F /* Info.plist */,
+			);
+			path = ArkusNexusApp;
+			sourceTree = "<group>";
+		};
+		187467212941CC7C00CA519F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				187467242941CC9E00CA519F /* Model */,
+				187467232941CC9500CA519F /* View */,
+				187467222941CC8700CA519F /* Presenter */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		187467222941CC8700CA519F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				187467282941CCF200CA519F /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		187467232941CC9500CA519F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1874672A2941CD0E00CA519F /* Cell */,
+				187467112941CC4100CA519F /* HomeViewController.swift */,
+				187467132941CC4100CA519F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		187467242941CC9E00CA519F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				187467252941CCA800CA519F /* Provider */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		187467252941CCA800CA519F /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				187467262941CCC200CA519F /* HomeProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		1874672A2941CD0E00CA519F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1874672B2941CD4B00CA519F /* PlaceViewCell.swift */,
+				1874672C2941CD4B00CA519F /* PlaceViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1874672F2941CD5D00CA519F /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				187467312941CD8300CA519F /* NetworkError.swift */,
+				187467332941CDAF00CA519F /* RequestModel.swift */,
+				187467352941CDD100CA519F /* ServiceLayer.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		187467372941CDE400CA519F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				187467382941CDFA00CA519F /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1874673A2941CE2600CA519F /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				1874673B2941CE4400CA519F /* PlaceDataModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		1874673D2941CE9600CA519F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				187467402941CEB700CA519F /* View */,
+				1874673F2941CEAC00CA519F /* Model */,
+				1874673E2941CEA200CA519F /* Presenter */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		1874673E2941CEA200CA519F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				187467482941CF2500CA519F /* DetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1874673F2941CEAC00CA519F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				187467452941CEF100CA519F /* Provider */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		187467402941CEB700CA519F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				187467412941CEE000CA519F /* DatailView.swift */,
+				187467422941CEE000CA519F /* DatailView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		187467452941CEF100CA519F /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				187467462941CF1200CA519F /* DetailProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187467092941CC4100CA519F /* ArkusNexusApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1874671E2941CC4300CA519F /* Build configuration list for PBXNativeTarget "ArkusNexusApp" */;
+			buildPhases = (
+				187467062941CC4100CA519F /* Sources */,
+				187467072941CC4100CA519F /* Frameworks */,
+				187467082941CC4100CA519F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArkusNexusApp;
+			productName = ArkusNexusApp;
+			productReference = 1874670A2941CC4100CA519F /* ArkusNexusApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187467022941CC4100CA519F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					187467092941CC4100CA519F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 187467052941CC4100CA519F /* Build configuration list for PBXProject "ArkusNexusApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187467012941CC4100CA519F;
+			productRefGroup = 1874670B2941CC4100CA519F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187467092941CC4100CA519F /* ArkusNexusApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187467082941CC4100CA519F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874671A2941CC4300CA519F /* LaunchScreen.storyboard in Resources */,
+				187467442941CEE000CA519F /* DatailView.xib in Resources */,
+				187467172941CC4300CA519F /* Assets.xcassets in Resources */,
+				1874672E2941CD4B00CA519F /* PlaceViewCell.xib in Resources */,
+				187467152941CC4100CA519F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187467062941CC4100CA519F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874672D2941CD4B00CA519F /* PlaceViewCell.swift in Sources */,
+				187467322941CD8300CA519F /* NetworkError.swift in Sources */,
+				187467122941CC4100CA519F /* HomeViewController.swift in Sources */,
+				187467272941CCC200CA519F /* HomeProvider.swift in Sources */,
+				1874670E2941CC4100CA519F /* AppDelegate.swift in Sources */,
+				187467492941CF2500CA519F /* DetailPresenter.swift in Sources */,
+				187467432941CEE000CA519F /* DatailView.swift in Sources */,
+				187467392941CDFA00CA519F /* Constants.swift in Sources */,
+				187467292941CCF200CA519F /* HomePresenter.swift in Sources */,
+				187467102941CC4100CA519F /* SceneDelegate.swift in Sources */,
+				187467362941CDD100CA519F /* ServiceLayer.swift in Sources */,
+				187467472941CF1200CA519F /* DetailProvider.swift in Sources */,
+				1874673C2941CE4400CA519F /* PlaceDataModel.swift in Sources */,
+				187467342941CDAF00CA519F /* RequestModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		187467132941CC4100CA519F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187467142941CC4100CA519F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187467182941CC4300CA519F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187467192941CC4300CA519F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1874671C2941CC4300CA519F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1874671D2941CC4300CA519F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1874671F2941CC4300CA519F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PJJCY5U5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArkusNexusApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RJDev.ArkusNexusApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		187467202941CC4300CA519F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PJJCY5U5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArkusNexusApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RJDev.ArkusNexusApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187467052941CC4100CA519F /* Build configuration list for PBXProject "ArkusNexusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874671C2941CC4300CA519F /* Debug */,
+				1874671D2941CC4300CA519F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1874671E2941CC4300CA519F /* Build configuration list for PBXNativeTarget "ArkusNexusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874671F2941CC4300CA519F /* Debug */,
+				187467202941CC4300CA519F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187467022941CC4100CA519F /* Project object */;
+}
