@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1819C934294FB66C009A6EBE /* PlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1819C932294FB66C009A6EBE /* PlaceCell.swift */; };
+		1819C935294FB66C009A6EBE /* PlaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1819C933294FB66C009A6EBE /* PlaceCell.xib */; };
+		183A75E82953A1C800EE9215 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A75E72953A1C800EE9215 /* LocationManager.swift */; };
+		1870C2C2294BA7F000A69002 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870C2BB294BA7F000A69002 /* HomePresenter.swift */; };
+		1870C2C4294BA7F000A69002 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870C2BD294BA7F000A69002 /* HomeProtocols.swift */; };
+		1870C2C5294BA7F000A69002 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870C2BE294BA7F000A69002 /* HomeInteractor.swift */; };
+		1870C2C7294BA7F000A69002 /* HomeRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870C2C0294BA7F000A69002 /* HomeRemoteDataManager.swift */; };
+		1870C2C8294BA7F000A69002 /* HomeRooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870C2C1294BA7F000A69002 /* HomeRooter.swift */; };
 		1874670E2941CC4100CA519F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874670D2941CC4100CA519F /* AppDelegate.swift */; };
 		187467102941CC4100CA519F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874670F2941CC4100CA519F /* SceneDelegate.swift */; };
-		187467122941CC4100CA519F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187467112941CC4100CA519F /* HomeViewController.swift */; };
-		187467152941CC4100CA519F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187467132941CC4100CA519F /* Main.storyboard */; };
+		187467122941CC4100CA519F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187467112941CC4100CA519F /* HomeView.swift */; };
 		187467172941CC4300CA519F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187467162941CC4300CA519F /* Assets.xcassets */; };
 		1874671A2941CC4300CA519F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187467182941CC4300CA519F /* LaunchScreen.storyboard */; };
-		187467272941CCC200CA519F /* HomeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187467262941CCC200CA519F /* HomeProvider.swift */; };
-		187467292941CCF200CA519F /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187467282941CCF200CA519F /* HomePresenter.swift */; };
-		1874672D2941CD4B00CA519F /* PlaceViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874672B2941CD4B00CA519F /* PlaceViewCell.swift */; };
-		1874672E2941CD4B00CA519F /* PlaceViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874672C2941CD4B00CA519F /* PlaceViewCell.xib */; };
 		187467322941CD8300CA519F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187467312941CD8300CA519F /* NetworkError.swift */; };
 		187467342941CDAF00CA519F /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187467332941CDAF00CA519F /* RequestModel.swift */; };
 		187467362941CDD100CA519F /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187467352941CDD100CA519F /* ServiceLayer.swift */; };
@@ -26,21 +29,26 @@
 		187467442941CEE000CA519F /* DatailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187467422941CEE000CA519F /* DatailView.xib */; };
 		187467472941CF1200CA519F /* DetailProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187467462941CF1200CA519F /* DetailProvider.swift */; };
 		187467492941CF2500CA519F /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187467482941CF2500CA519F /* DetailPresenter.swift */; };
+		187D1C80294BB98500CD0A87 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187D1C7F294BB98500CD0A87 /* HomeView.storyboard */; };
+		F372046B1F9DC602E54BE3CE /* Pods_ArkusNexusApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06C96D472514B8B3E6375F3 /* Pods_ArkusNexusApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1819C932294FB66C009A6EBE /* PlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCell.swift; sourceTree = "<group>"; };
+		1819C933294FB66C009A6EBE /* PlaceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceCell.xib; sourceTree = "<group>"; };
+		183A75E72953A1C800EE9215 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		1870C2BB294BA7F000A69002 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		1870C2BD294BA7F000A69002 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		1870C2BE294BA7F000A69002 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		1870C2C0294BA7F000A69002 /* HomeRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRemoteDataManager.swift; sourceTree = "<group>"; };
+		1870C2C1294BA7F000A69002 /* HomeRooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRooter.swift; sourceTree = "<group>"; };
 		1874670A2941CC4100CA519F /* ArkusNexusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArkusNexusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1874670D2941CC4100CA519F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1874670F2941CC4100CA519F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		187467112941CC4100CA519F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		187467142941CC4100CA519F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187467112941CC4100CA519F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		187467162941CC4300CA519F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		187467192941CC4300CA519F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1874671B2941CC4300CA519F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		187467262941CCC200CA519F /* HomeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProvider.swift; sourceTree = "<group>"; };
-		187467282941CCF200CA519F /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
-		1874672B2941CD4B00CA519F /* PlaceViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewCell.swift; sourceTree = "<group>"; };
-		1874672C2941CD4B00CA519F /* PlaceViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceViewCell.xib; sourceTree = "<group>"; };
 		187467312941CD8300CA519F /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		187467332941CDAF00CA519F /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
 		187467352941CDD100CA519F /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
@@ -50,6 +58,10 @@
 		187467422941CEE000CA519F /* DatailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatailView.xib; sourceTree = "<group>"; };
 		187467462941CF1200CA519F /* DetailProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProvider.swift; sourceTree = "<group>"; };
 		187467482941CF2500CA519F /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		187D1C7F294BB98500CD0A87 /* HomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
+		21BBC549793C5E7F82BD4980 /* Pods-ArkusNexusApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArkusNexusApp.debug.xcconfig"; path = "Target Support Files/Pods-ArkusNexusApp/Pods-ArkusNexusApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2AE302D994A29E0A902EA11C /* Pods-ArkusNexusApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArkusNexusApp.release.xcconfig"; path = "Target Support Files/Pods-ArkusNexusApp/Pods-ArkusNexusApp.release.xcconfig"; sourceTree = "<group>"; };
+		C06C96D472514B8B3E6375F3 /* Pods_ArkusNexusApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArkusNexusApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,17 +69,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F372046B1F9DC602E54BE3CE /* Pods_ArkusNexusApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1819C931294FB631009A6EBE /* placeCell */ = {
+			isa = PBXGroup;
+			children = (
+				1819C932294FB66C009A6EBE /* PlaceCell.swift */,
+				1819C933294FB66C009A6EBE /* PlaceCell.xib */,
+			);
+			path = placeCell;
+			sourceTree = "<group>";
+		};
 		187467012941CC4100CA519F = {
 			isa = PBXGroup;
 			children = (
 				1874670C2941CC4100CA519F /* ArkusNexusApp */,
 				1874670B2941CC4100CA519F /* Products */,
+				BA3B1A91308915FA14801098 /* Pods */,
+				29A1C45AB571929FDC82F1D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,8 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				187467372941CDE400CA519F /* Utils */,
-				1874672F2941CD5D00CA519F /* ServiceLayer */,
-				1874673A2941CE2600CA519F /* DataModel */,
 				1874673D2941CE9600CA519F /* Detail */,
 				187467212941CC7C00CA519F /* Home */,
 				1874670D2941CC4100CA519F /* AppDelegate.swift */,
@@ -99,61 +121,30 @@
 		187467212941CC7C00CA519F /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				187467242941CC9E00CA519F /* Model */,
+				1870C2C0294BA7F000A69002 /* HomeRemoteDataManager.swift */,
+				1870C2BD294BA7F000A69002 /* HomeProtocols.swift */,
 				187467232941CC9500CA519F /* View */,
-				187467222941CC8700CA519F /* Presenter */,
+				18788605294CFBF70003B1B7 /* Interactor */,
+				18788604294CFBE80003B1B7 /* Presenter */,
+				18788607294D00210003B1B7 /* Entity */,
+				18788606294CFC150003B1B7 /* Router */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		187467222941CC8700CA519F /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				187467282941CCF200CA519F /* HomePresenter.swift */,
-			);
-			path = Presenter;
 			sourceTree = "<group>";
 		};
 		187467232941CC9500CA519F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1874672A2941CD0E00CA519F /* Cell */,
-				187467112941CC4100CA519F /* HomeViewController.swift */,
-				187467132941CC4100CA519F /* Main.storyboard */,
+				1819C931294FB631009A6EBE /* placeCell */,
+				187467112941CC4100CA519F /* HomeView.swift */,
+				187D1C7F294BB98500CD0A87 /* HomeView.storyboard */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		187467242941CC9E00CA519F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				187467252941CCA800CA519F /* Provider */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		187467252941CCA800CA519F /* Provider */ = {
-			isa = PBXGroup;
-			children = (
-				187467262941CCC200CA519F /* HomeProvider.swift */,
-			);
-			path = Provider;
-			sourceTree = "<group>";
-		};
-		1874672A2941CD0E00CA519F /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				1874672B2941CD4B00CA519F /* PlaceViewCell.swift */,
-				1874672C2941CD4B00CA519F /* PlaceViewCell.xib */,
-			);
-			path = Cell;
 			sourceTree = "<group>";
 		};
 		1874672F2941CD5D00CA519F /* ServiceLayer */ = {
 			isa = PBXGroup;
 			children = (
-				187467312941CD8300CA519F /* NetworkError.swift */,
-				187467332941CDAF00CA519F /* RequestModel.swift */,
 				187467352941CDD100CA519F /* ServiceLayer.swift */,
 			);
 			path = ServiceLayer;
@@ -163,16 +154,12 @@
 			isa = PBXGroup;
 			children = (
 				187467382941CDFA00CA519F /* Constants.swift */,
+				187467312941CD8300CA519F /* NetworkError.swift */,
+				187467332941CDAF00CA519F /* RequestModel.swift */,
+				1874672F2941CD5D00CA519F /* ServiceLayer */,
+				183A75E72953A1C800EE9215 /* LocationManager.swift */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		1874673A2941CE2600CA519F /* DataModel */ = {
-			isa = PBXGroup;
-			children = (
-				1874673B2941CE4400CA519F /* PlaceDataModel.swift */,
-			);
-			path = DataModel;
 			sourceTree = "<group>";
 		};
 		1874673D2941CE9600CA519F /* Detail */ = {
@@ -218,6 +205,55 @@
 			path = Provider;
 			sourceTree = "<group>";
 		};
+		18788604294CFBE80003B1B7 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1870C2BB294BA7F000A69002 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		18788605294CFBF70003B1B7 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1870C2BE294BA7F000A69002 /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		18788606294CFC150003B1B7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1870C2C1294BA7F000A69002 /* HomeRooter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		18788607294D00210003B1B7 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				1874673B2941CE4400CA519F /* PlaceDataModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		29A1C45AB571929FDC82F1D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C06C96D472514B8B3E6375F3 /* Pods_ArkusNexusApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA3B1A91308915FA14801098 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21BBC549793C5E7F82BD4980 /* Pods-ArkusNexusApp.debug.xcconfig */,
+				2AE302D994A29E0A902EA11C /* Pods-ArkusNexusApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -225,9 +261,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1874671E2941CC4300CA519F /* Build configuration list for PBXNativeTarget "ArkusNexusApp" */;
 			buildPhases = (
+				5AE6E0CF61C9DFA3BBED48DB /* [CP] Check Pods Manifest.lock */,
 				187467062941CC4100CA519F /* Sources */,
 				187467072941CC4100CA519F /* Frameworks */,
 				187467082941CC4100CA519F /* Resources */,
+				C9A3933EBB8BDBF4A34A436A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -278,47 +316,85 @@
 			files = (
 				1874671A2941CC4300CA519F /* LaunchScreen.storyboard in Resources */,
 				187467442941CEE000CA519F /* DatailView.xib in Resources */,
+				187D1C80294BB98500CD0A87 /* HomeView.storyboard in Resources */,
+				1819C935294FB66C009A6EBE /* PlaceCell.xib in Resources */,
 				187467172941CC4300CA519F /* Assets.xcassets in Resources */,
-				1874672E2941CD4B00CA519F /* PlaceViewCell.xib in Resources */,
-				187467152941CC4100CA519F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AE6E0CF61C9DFA3BBED48DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArkusNexusApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9A3933EBB8BDBF4A34A436A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArkusNexusApp/Pods-ArkusNexusApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArkusNexusApp/Pods-ArkusNexusApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArkusNexusApp/Pods-ArkusNexusApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		187467062941CC4100CA519F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1874672D2941CD4B00CA519F /* PlaceViewCell.swift in Sources */,
 				187467322941CD8300CA519F /* NetworkError.swift in Sources */,
-				187467122941CC4100CA519F /* HomeViewController.swift in Sources */,
-				187467272941CCC200CA519F /* HomeProvider.swift in Sources */,
+				187467122941CC4100CA519F /* HomeView.swift in Sources */,
+				1819C934294FB66C009A6EBE /* PlaceCell.swift in Sources */,
+				1870C2C5294BA7F000A69002 /* HomeInteractor.swift in Sources */,
 				1874670E2941CC4100CA519F /* AppDelegate.swift in Sources */,
+				1870C2C4294BA7F000A69002 /* HomeProtocols.swift in Sources */,
+				1870C2C2294BA7F000A69002 /* HomePresenter.swift in Sources */,
+				1870C2C8294BA7F000A69002 /* HomeRooter.swift in Sources */,
+				183A75E82953A1C800EE9215 /* LocationManager.swift in Sources */,
 				187467492941CF2500CA519F /* DetailPresenter.swift in Sources */,
 				187467432941CEE000CA519F /* DatailView.swift in Sources */,
 				187467392941CDFA00CA519F /* Constants.swift in Sources */,
-				187467292941CCF200CA519F /* HomePresenter.swift in Sources */,
 				187467102941CC4100CA519F /* SceneDelegate.swift in Sources */,
 				187467362941CDD100CA519F /* ServiceLayer.swift in Sources */,
 				187467472941CF1200CA519F /* DetailProvider.swift in Sources */,
 				1874673C2941CE4400CA519F /* PlaceDataModel.swift in Sources */,
 				187467342941CDAF00CA519F /* RequestModel.swift in Sources */,
+				1870C2C7294BA7F000A69002 /* HomeRemoteDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		187467132941CC4100CA519F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				187467142941CC4100CA519F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		187467182941CC4300CA519F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,6 +522,7 @@
 		};
 		1874671F2941CC4300CA519F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21BBC549793C5E7F82BD4980 /* Pods-ArkusNexusApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,8 +532,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ArkusNexusApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = HomeView;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -478,6 +556,7 @@
 		};
 		187467202941CC4300CA519F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE302D994A29E0A902EA11C /* Pods-ArkusNexusApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -487,8 +566,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ArkusNexusApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = HomeView;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;

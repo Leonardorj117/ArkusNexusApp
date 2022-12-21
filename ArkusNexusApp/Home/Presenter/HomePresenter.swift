@@ -2,33 +2,29 @@
 //  HomePresenter.swift
 //  ArkusNexusApp
 //
-//  Created by Leonardo Rubio on 08/12/22.
+//  Created by Leonardo Rubio on 15/12/22.
+//  
 //
 
 import Foundation
 
-
-protocol HomeViewProtocol:AnyObject{
-    func getListPlaces(list:[Any])
+class HomePresenter  {
+    
+    // MARK: Properties
+    weak var view: HomeViewProtocol?
+    var interactor: HomeInteractorInputProtocol?
+    var router: HomeRouterProtocol?
+    
 }
 
-class HomePresenter{
-    var provider:HomeProviderProtocol
-    weak var delegate:HomeViewProtocol?
-    private var listPLaces:[Any] = []
-    
-    init(provider: HomeProviderProtocol = HomeProvider(), delegate: HomeViewProtocol) {
-        self.provider = provider
-        self.delegate = delegate
+extension HomePresenter: HomePresenterProtocol {
+    // TODO: implement presenter methods
+    func viewDidLoad() {
+        //COMUNICAR AL INTERACTOR QUE SE NECESITAN TRAER DATOS.
+        self.interactor?.interactorGetData()
     }
-    
-    func getPlaces() async{
-        self.listPLaces.removeAll()
-        do{
-            let places = try await provider.getPlacesData()
-            self.listPLaces.append(places)
-        }catch{
-            print(error)
-        }
-    }
+}
+
+extension HomePresenter: HomeInteractorOutputProtocol {
+    // TODO: implement interactor output methods
 }
